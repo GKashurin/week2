@@ -163,10 +163,43 @@ margin-bottom: 50px;
     object-fit: cover;
 }
 
+.news__text-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
+.pager {
+    text-align: center;    
+}
 
+.pager__display, .pager__list {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.pager__display {
+    margin-right: 26px;
+}
+.pager__item {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.pager__item--active .pager__link {
+    background: #ff3900;
+}
+
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 32px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
