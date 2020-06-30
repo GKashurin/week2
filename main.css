@@ -158,17 +158,19 @@ margin-bottom: 174px;
 }
 
 .section {
-    margin-bottom: 160px;
-    margin-top: 260px;
+    margin-bottom: 60px;
+    margin-top: 110px;
 }
 
 .offers__item {
-    min-height: 420px;
+    margin-top: 155px;
+    min-height: 470px;
     background: #fff;
     border-radius: 4px;
     display: inline-block;
     margin-right: 20px;
-    width: 340px;
+    width: 350px;
+    vertical-align: top
     }
 
 .offers__item:last-child {
@@ -192,11 +194,11 @@ offers__icon {
 .offers__title {
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .offers__discription-block {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     }
     
 .offers__discription-long {
@@ -208,18 +210,20 @@ offers__icon {
     
     .offers__discription-long {
     margin-right: 0;
+    margin-top: 22px;
 }
 
 .offers__text {
 font-size: 14px;
-padding-bottom: 40px;
+padding-top: 5px;
+padding-bottom: 60px;
 }
 
 .news {vertical-align: top;}
 
 .section__title {
     font-size: 48px;
-    font-weight: bold;
+    margin-bottom: 27px;
 }
 
 .news__item {
@@ -230,7 +234,7 @@ padding-bottom: 40px;
     border-radius: 4px;
     overflow: hidden;
     margin-right: 20px;
-    min-height: 391px;
+    min-height: 415px;
 }
 
 .news__item:last-child {
@@ -274,7 +278,7 @@ padding-bottom: 40px;
 }
 
 .pager {
-    text-align: center;    
+    text-align: center;  
 }
 
 .news {
@@ -328,14 +332,16 @@ padding-bottom: 40px;
     color: black;
     padding: 80px 90px;
     width: 780px;
-    margin-left: 290px;
-    margin-top: -320px;
+    height: 457px;
+    margin-left: 350px;
+    margin-top: -350px;
 }
 
 .about__title {
     font-weight: bold;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .about__desc-text {
@@ -353,17 +359,26 @@ margin-bottom: 20px;
 .footer {
     height: 80px;
     position: relative;
+  }
+
+.footer-container {
+min-height: 20px;
+position: relative;
+}
+
+.menu__list {
+    padding-right: 300px;
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 13px;
 }
 
 .socials {
     position: absolute;
-    right: 210px;
+    right: 240px;
     bottom: 22px;
 }
 
