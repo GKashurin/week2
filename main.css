@@ -187,8 +187,8 @@ align-items: center;
     background: #fff;
     border-radius: 4px;
     width: calc(100%/3);
-    vertical-align: top;
     margin-right: 23px;
+    flex: 1;
     }
 
 .offers__item:last-child {
