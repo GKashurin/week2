@@ -52,7 +52,7 @@ img {
     display: block;
 }
 .top-line__container {
-    margin: 0 auto;
+    margin: 10px auto;
     width: 1145px;
     flex: 1;
     display: flex;
@@ -187,12 +187,9 @@ img {
     .page-content {
         background: #fff;
         color: black;
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
-    .services {
-        
-    }
 
     .service {
         display: flex;
@@ -220,24 +217,26 @@ img {
 
     .service__content {
         flex: 1;
+
     }
     .service__title {
         font-size: 36px;
         font-weight: bold;
         margin-bottom: 25px;
-        margin-top: 74px;
     }
 
     .service__title:last-child {
         padding-top: 0;
     }
 
-    .service__desc {
+    .service__desk {
         margin-bottom: 114px;
         line-height: 1.7;
     }
 
     .btn {
+        color: #fff;
+        background: #ff3900;
         border-radius: 30px;
         padding: 16px 46px;
         font-weight: bold;
@@ -255,7 +254,7 @@ img {
         display: flex;
         justify-content: center; 
         align-items: center;
-        margin-top: 78px;
+        margin-top: 90px;
         padding-bottom: 85px;
     }
     
@@ -298,7 +297,7 @@ img {
         color: black;
         font-size: 48px;
         font-weight: bold;
-        margin-left: 133px;
+        margin-left: 48px;
         margin-bottom: 73px;
     }
 
