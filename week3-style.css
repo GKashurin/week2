@@ -65,14 +65,14 @@ img {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
-    background: url(./top-line.jpg);
+    background: url("./top-line.jpg");
 }
 
 .top-line .header-services {
     margin-bottom: 105px;
 }
 
-.header-services {
+.header {
     padding-top: 37px;
     min-height: 77px;
     display: flex;
@@ -80,12 +80,12 @@ img {
     align-items: center;
     }
 
-.header-services__col {
+.header__col {
     display: flex;
     align-items: center;
 }
 
-.header-services__col header-services__col--allign--right
+.header__col header__col--allign--right
 {
     justify-content: flex-end;
 }
@@ -408,4 +408,49 @@ img {
         background-image: url("./t2.png");
     }
     
+    /*WELCOME*/
+
+    .welcome {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        background: url("./bottom-pic.jpg") center bottom / cover no-repeat;
+    }
+    .central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0;
+        animation: rotatein 1.9s;
+        animation-fill-mode: forwards;        
+    }
+
+    @keyframes rotatein {
+        from {
+            transform: scale(0.1) rotate(30deg);
+        }
+
+        50% {
+            transform: rotate(-10deg);
+        }
+
+        70% {
+            transform: rotate(3deg);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    .central__logo {
+        margin-bottom: 40px;
+        }
+
     
