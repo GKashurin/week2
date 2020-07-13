@@ -71,18 +71,9 @@ justify-content: space-between;
 align-items: center;
 }
 
-.header__col {
-    display: flex;
-    align-items: center;
-}
-
-.header__col--allign--right {
-    justify-content: flex-end;
-}
-
 .logo {
     display: block;
-    margin-right: 30px;
+    margin-right: 70px;
 }
 
 
@@ -377,43 +368,26 @@ margin-bottom: 20px;
 
 .footer {
     height: 80px;
-    position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-.footer__col {
-    display: flex;
     align-items: center;
 }
 
-.footer__col--align-right {
-    justify-content: flex-end;
-}
 
-.footer-container {
-margin-top: auto;
-}
-
-.menu-footer {
-    position: absolute;
+.menu {
     top: 30px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.menu-footer__item {
+
+.menu__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 50px;
     }
 
-.menu-footer__list {
-    padding-right: 230px;
-}
-
-    .socials__item {
+.socials__item {
     display: inline-block;
     vertical-align: middle;
     margin-right: 13px;
@@ -421,7 +395,6 @@ margin-top: auto;
 
 .socials {
     bottom: 22px;
-    margin-right: 110px;
 }
 
 socisls__item:last-child {
@@ -449,8 +422,3 @@ socisls__item:last-child {
 .socials__item--icon-telegram .socials__link {
     background-image: url("./t2.png");
 }
-
-
-
-
-/*services page*/
