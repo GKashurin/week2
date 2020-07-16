@@ -61,6 +61,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: url("./top-line.jpg") center;
+
 }
 
 .top__line {
@@ -68,7 +70,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
-    background: url("./");
+    
 }
 
 .top-line .header {
@@ -134,10 +136,7 @@ img {
     display: none;
 }
     
-
-
-
-    
+  
     .menu__item {
       display: inline-block;
       vertical-align: middle;
@@ -212,7 +211,7 @@ img {
 
 
     .breadcrumbs__item:after {
-        content: "/";
+        content: " / ";
     }
 
     .breadcrumbs__item:last-child:after {
@@ -298,6 +297,7 @@ img {
         cursor: pointer;
         padding: 20px 55px;
     }
+
 
     .pager {
         display: flex;
@@ -450,8 +450,9 @@ img {
         height: 100%;
         align-items: center;
         justify-content: center;
-        background: url("./bottom-pic.jpg") center bottom / cover no-repeat;
     }
+
+
     .central {
         display: flex;
         flex-direction: column;

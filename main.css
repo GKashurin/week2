@@ -259,6 +259,11 @@ padding-bottom: 60px;
     margin-top: 75px;
     margin-bottom: 100px;
 }
+
+.info {
+    background: url("./bottom-pic.jpg") center bottom / cover no-repeat;
+}
+
 .news {vertical-align: top;}
 
 .section__title {
