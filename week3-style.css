@@ -450,6 +450,7 @@ img {
         height: 100%;
         align-items: center;
         justify-content: center;
+        background: url("./bottom-pic.jpg");
     }
 
 
