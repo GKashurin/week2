@@ -73,7 +73,6 @@ align-items: center;
 
 .logo {
     display: block;
-    margin-right: 70px;
 }
 
 .contacts__dropdown-desk {
@@ -149,8 +148,8 @@ align-items: center;
     width: 180px;
     top: 100%;
     margin-top: 10px;
-    display: none;
     border-radius: 1px;
+    right: 0;
 }
     
 .dropdown__menu:after {
@@ -160,9 +159,9 @@ align-items: center;
     height: 0;
     border: 12px solid transparent;
     position: absolute;
-    bottom: 100%;
+    right: 12px;
     border-bottom-color: #fff;
-    bottom: 100%;}
+    }
 
 .hero__text-section {
     text-align: center;
@@ -429,8 +428,9 @@ margin-bottom: 60px;
 }
 
 
-.menu {
-    transform: translateX(-50%);
+.menu__list {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -440,9 +440,12 @@ margin-bottom: 60px;
     margin-right: 50px;
     }
 
+    ul.socials {
+        display: flex;
+        align-items: center;
+    }
+
 .socials__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 13px;
 }
 

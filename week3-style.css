@@ -418,20 +418,21 @@ section.top-line {
         margin-right: 50px;
         }
     
+    ul.socials {
+        display: flex;
+        align-items: center;
+    }
+    
     .socials__item {
-        display: inline-block;
-        vertical-align: middle;
         margin-right: 13px;
     }
     
-    .socials {
-        bottom: 22px;
-    }
     
     .socisls__item:last-child {
         margin-right: 0;
     }
     
+   
     .socials__link {
         display: block;
         text-decoration: none;
